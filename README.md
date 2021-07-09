@@ -31,8 +31,7 @@ You will neet use [Visual Studio Code](https://code.visualstudio.com/download) t
     1) Help you instantiate classes like `Webmap`:<br>
     ![Code snippets](assets/webmap-code-snippet.png)
     2) Providing you with all accepted values in a property like `map.basemap`:<br>
-    ![basemap-style-autocomplete-1](assets/basemap-style-autocomplete-1.png)<br>
-    <img alt="basemap-style-autocomplete-2" src="assets/basemap-style-autocomplete-2.png" style="width:500px">
+    ![basemap-style-autocomplete-1](assets/basemap-style-autocomplete-1.png)<br><img alt="basemap-style-autocomplete-2" src="assets/basemap-style-autocomplete-2.png" width="400">
     3) But you can also **[add your own code snippets](https://github.com/Esri/arcgis-js-vscode-snippets/blob/master/contributing.md#contributing-guidelines)**
 
 ## Requirements
