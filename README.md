@@ -30,8 +30,10 @@ You will neet use [Visual Studio Code](https://code.visualstudio.com/download) t
 * Using **[ArcGIS API for JavaScript Snippets](https://marketplace.visualstudio.com/items?itemName=Esri.arcgis-jsapi-snippets)**. It includes **code snippets** to:
     1) Help you instantiate classes like `Webmap`:<br>
     ![Code snippets](assets/webmap-code-snippet.png)
+
     2) Providing you with all accepted values in a property like `map.basemap`:<br>
     ![basemap-style-autocomplete-1](assets/basemap-style-autocomplete-1.png)<br><img alt="basemap-style-autocomplete-2" src="assets/basemap-style-autocomplete-2.png" width="400">
+    
     3) But you can also **[add your own code snippets](https://github.com/Esri/arcgis-js-vscode-snippets/blob/master/contributing.md#contributing-guidelines)**
 
 ## Requirements
@@ -40,11 +42,10 @@ You will need to have NodeJS, [Visual Studio Code](https://code.visualstudio.com
 
 ## Development
 
-The first time install the dependencies running: `npm run install`. Then
-
-* Run: `npm run dev`
-* Open [index.html](index.html) (recomendation: use [Live Server extension](https://marketplace.visualstudio.com/items?itemName=ritwickdey.LiveServer))
-* Now you are good to go!, edit [app/main.ts](app/main.ts) and enjoy the Intelisense & code snippets!.
+* First time install the dependencies running: `npm run install`.
+* Run the development environment: `npm run dev`.
+* Open [index.html](index.html) - **recomendation**: use [Live Server extension](https://marketplace.visualstudio.com/items?itemName=ritwickdey.LiveServer).
+* Edit [app/main.ts](app/main.ts) and enjoy the IntelliSense & code snippets.
 
 > **Note**: as you can notice, you will be editing a file which uses the Typescript extension (`app/main.ts`), but don't worry, **you can write plain ES6**. `npm run dev` will take care of transpile *.ts to *.js to be run in the browser. **Thanks to TS, we will benefit from code autocompletion, shortcuts to the API reference, etc.**
 
@@ -57,3 +58,5 @@ If you prefer videos, you can find all a [curated playlist of videos about the J
 ### Learning paths
 
 We are still working on selecting a curated list of resources you help you better understand which are the most important lessons to get your goal.
+
+But if you need advise do not hesitate, [open an issue](https://github.com/hhkaos/arcgis-jsapi-getting-started/issues).
