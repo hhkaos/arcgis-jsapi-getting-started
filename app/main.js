@@ -10,8 +10,9 @@ define(["require", "exports", "esri/views/MapView"], function (require, exports,
             basemap: "streets-navigation-vector"
         },
         container: "viewDiv",
-        center: [-118.244, 34.052],
-        zoom: 12
+        center: [-3.760276, 39.482580],
+        zoom: 4
     });
+    window.view = view;
 });
 //# sourceMappingURL=main.js.map
