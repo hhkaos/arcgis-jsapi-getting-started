@@ -10,25 +10,34 @@ These docs aims to help you getting started with TypeScript to be able to use it
 
 # Configuration files
 
-This project includes two configuration files: 
-
-* `package.json`: that 
-* `tsconfig.json`
+This project includes two configuration files: `package.json` and `tsconfig.json`.
 
 ## NPM's Package (package.json)
 
-Which includes:
+In addition to metadata it includes:
 
 * All TypeScript definitions as developer dependencies: [`@types/arcgis-js-api`](https://www.npmjs.com/package/@types/arcgis-js-api), [`typescript`](https://www.npmjs.com/package/@types/arcgis-js-api), [`@types/chai`](https://www.npmjs.com/package/@types/chai) (optional?) and [`dojo-typings`](https://www.npmjs.com/package/dojo-typings) (optional?).
 
 * The definition of the script `npm run dev`: which runs the TypeScript compiler in watch mode (`tsc -w`).
-   
 
 ## TypeScript file (tsconfig.json)
 
 A first introduction to the [tsconfig.json](../tsconfig) can be [found here](https://developers.arcgis.com/javascript/latest/typescript-setup/#first-typescript-file).
 
-Let's review the file:
+You could use this version:
+
+```js
+{
+  "compilerOptions": {
+      "module": "amd",
+      "sourceMap": true,
+      "target": "es2019",
+      "esModuleInterop": true
+  }
+}
+```
+
+Or a more complex version:
 
 ```js
 {
