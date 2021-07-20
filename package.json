@@ -15,7 +15,10 @@
     "javascript",
     "arcgis"
   ],
-  "author": "Raul Jimenez <rjimenez@esri.com>",
+  "author": "Rene Rubalcava <rrubalcava@esri.com> (https://odoe.net/)",
+  "contributors": [
+    "Raul Jimenez <rjimenez@esri.com> (http://github.com/hhkaos)"
+  ],
   "license": "Apache-2.0",
   "bugs": {
     "url": "https://github.com/Esri/jsapi-resources/issues"
@@ -23,9 +26,9 @@
   "homepage": "https://developers.arcgis.com/javascript/latest/guide/typescript-setup/index.html",
   "dependencies": {},
   "devDependencies": {
+    "typescript": "^3.4.3",
     "@types/arcgis-js-api": "^4.20.0",
     "@types/chai": "4.2.1",
-    "dojo-typings": "^1.11.9",
-    "typescript": "^3.4.3"
+    "dojo-typings": "^1.11.9"
   }
 }

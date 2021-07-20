@@ -47,9 +47,11 @@ You will need to have NodeJS, [Visual Studio Code](https://code.visualstudio.com
 * Open [index.html](index.html) - **recomendation**: use [Live Server extension](https://marketplace.visualstudio.com/items?itemName=ritwickdey.LiveServer).
 * Edit [app/main.ts](app/main.ts) and enjoy the IntelliSense & code snippets.
 
-> **Note**: as you can notice, you will be editing a file which uses the Typescript extension (`app/main.ts`), but don't worry, **you can write plain ES6**. `npm run dev` will take care of transpile *.ts to *.js to be run in the browser. **Thanks to TS, we will benefit from code autocompletion, shortcuts to the API reference, etc.**
-
 ## Documentation, videos and tutorials
+
+To better understand the code of the `index.html`, `app/main.ts` and `tsconfig.json` files read this page [TypeScript - Setting up your development environment](https://developers.arcgis.com/javascript/latest/typescript-setup/).
+
+As you can notice, you will be editing a file which uses the Typescript extension (`app/main.ts`), so you **need to have a basic understanding on how to use TypeScript**. That's why we have make this **[Getting started with TypeScript and ArcGIS JS API](./docs/README.md)**.
 
 To get a global overview on what can be done with the API we recommend you to read the [Mapping APIs and services guide](https://developers.arcgis.com/documentation/mapping-apis-and-services/maps/) and do the tutorials.
 
