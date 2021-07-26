@@ -1,3 +1,5 @@
+# Deprecation notice: everything on this repo was moved to [this one](https://github.com/hhkaos/arcgis-js-api-starter-apps)
+
 > Original code from: [github.com/Esri/jsapi-resources](https://github.com/Esri/jsapi-resources/tree/master/4.x/typescript/demo)
 
 # Getting started - ArcGIS API for JavaScript
